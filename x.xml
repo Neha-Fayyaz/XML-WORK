@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ap-Hospital[
+<!ELEMENT Ap-Hospital (patient)>
+<!ELEMENT patient (age,disease,date)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT disease (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+
+]>
+
+<Ap-Hospital>
+<patient id="Ali">
+<age>21</age>
+<disease>Fever</disease>
+<date>2022-10-1</date>
+ </patient>
+<patient id="Sara">
+ <age>61</age>
+ <disease>Headache</disease>
+ <date>2022-16-1</date>
+ </patient>
+ <patient id="Raza">
+  <age>90</age>
+ <disease>Chest Infection</disease>
+  <date>2022-20-1</date>
+  </patient>
+</Ap-Hospital>
